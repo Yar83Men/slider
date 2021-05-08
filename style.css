@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 18px;
+    color:#222;
+}
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgb(219, 219, 219);
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 26px;
+}
+button{
+    background-color: rgb(19, 19, 19);
+    color:white;
+    border:none;
+    outline:none;    
+    transition: 0.5s;
+    padding: 10px;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: #fff;
+    color:rgb(19, 19, 19);
+    border: 1px solid rgb(19, 19, 19);
+}
+.slider{
+    max-width: 100%;
+    margin:0 auto;
+    overflow: hidden;
+}
+.slider-line{
+    width: 800px;
+    position:relative;
+    left:0;
+    display:flex;
+    transition:all ease 1s;
+}
